@@ -103,6 +103,10 @@ nav a:hover {
 	animation-duration: 3s;
 }
 
+nav a.active {
+	font-weight: bold;
+}
+
 .logo-div {
 	margin: 1em 0 1em 9em;
 }
@@ -183,8 +187,7 @@ nav a:hover {
 	margin-top: 0.5em;
 }
 
-.address {
-	
+.address {	
 	line-height: 1.25em;
 	margin-top: 1em;
 }
@@ -206,4 +209,33 @@ nav a:hover {
 
 footer p {
 	text-align: center;
+}
+
+
+.facts-text {
+	width: 48%;
+}
+
+.facts-text h2 {
+	padding-bottom: 0.5em;
+}
+
+.facts-text p {
+	padding-bottom: 1em;
+	line-height: 1.25em;
+}
+
+.facts-text ul {
+	list-style-type: square;
+	list-style-position: inside;
+	line-height: 2em;
+
+}
+
+.facts-img {
+	width: 48%;
+}
+
+.services-info-img {
+	max-width: 100%;
 }
