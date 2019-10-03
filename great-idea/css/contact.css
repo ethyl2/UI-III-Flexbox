@@ -1,0 +1,88 @@
+header {
+    margin-bottom: 2em;
+}
+
+header h1 {
+    margin-top: 2em;
+    font-size: 2em;
+}
+
+header p {
+    line-height: 1.5em;
+    text-justify: none;
+}
+
+.contact-form-area {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+    margin: 2em auto;
+}
+
+.contact-form {
+    width: 55%;
+    padding: 4em 2em;
+}
+
+input, label, textarea{
+    width:100%;
+    margin:4% 0;
+}
+
+input, textarea{
+    border:none;
+    border-bottom:3px solid gray;
+    background:rgb(236, 231, 231);
+}
+
+button {
+    width:100%;
+    background:#acf15d;
+    color: black;
+    padding: 1em;
+    margin-top: 2em;
+    font-family: Bangers, sans-serif;
+    border-radius: 2px;
+    border: 1px solid black;
+
+  }
+
+.contact-img {
+    width: 40%;
+}
+.contact-img a img {
+    max-width: 100%;
+}
+
+.contact-info-container {
+    background-color: white;
+    border: none;
+    text-align: center;
+    width: 75%;
+    margin: 2em auto;
+}
+
+.contact-info-container-items {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+}
+
+.box {
+    text-align: center;
+    background: rgb(236, 231, 231);
+    padding: 2em;
+    border-radius: 2px;
+}
+
+.fas {
+    font-size: 3em;
+}
+
+footer {
+    border-top: 1px solid black;
+    padding-top: 1em;
+}
