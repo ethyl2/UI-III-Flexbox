@@ -1,4 +1,11 @@
 /* Styles for Services Page */
+.img-container {
+	width: 100%;
+}
+
+.img-container img {
+	width: 100%;
+}
 
 .intro {
 	margin: 1em 0;
@@ -15,7 +22,7 @@ main {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-	margin-top: 2em;
+	margin-top: 2em auto;
 	
 }
 
@@ -88,8 +95,18 @@ main section .button h4 {
 }
 
 @media only screen and (max-width: 750px) {
-    /* For mobile devices */
-    main section, .facts-text, .facts-img {
+	/* For mobile devices */
+	
+	body {
+		width: 95%;
+	}
+
+    main, main section, .facts-text, .facts-img {
         width: 100%;
-    }
+	}
+	
+	main {
+		flex-flow: column nowrap;
+	}
+
 }
