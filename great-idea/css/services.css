@@ -1,4 +1,9 @@
 /* Styles for Services Page */
+
+.icon {
+	display: none;
+}
+
 .img-container {
 	width: 100%;
 }
@@ -99,6 +104,33 @@ main section .button h4 {
 	
 	body {
 		width: 95%;
+	}
+
+	.icon {
+		display: block;
+		color: black;
+		font-size: 2rem;
+		padding-top: 1rem;
+		padding-left: 1rem;
+	}
+	
+	nav {
+		display: none;
+		flex-flow: column nowrap;
+		justify-content: space-between;
+	}
+	
+	nav a {
+		font-size: 1.25rem;
+		padding: 0.25rem 1rem;
+		width: 100%;
+		border: 1px solid gray;
+		margin-bottom: 0.25rem;
+		
+	}
+
+	nav a:hover {
+		animation-name: pulse;
 	}
 
     main, main section, .facts-text, .facts-img {

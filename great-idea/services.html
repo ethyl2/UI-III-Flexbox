@@ -7,11 +7,12 @@
 
   <title>Great Idea! - Services</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/services.css" />
 
-
+  <script src="js/services.js"></script> 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
@@ -21,6 +22,7 @@
 
   <header>
     <div class="page-top">
+      
       <nav>
         <a href="#" class="active">Services</a>
         <a href="index.html">Product</a>
@@ -30,8 +32,14 @@
         <a href="contact.html">Contact</a>
       </nav>
       <div class="logo-div">
-        <a href="index.html"><img class="logo" src="img/logo.png" alt="Great Idea! Company logo." /></a>
-      </div>
+        <a href="index.html">
+          <div class="img-container">
+            <img class="logo" src="img/logo.png" alt="Great Idea! Company logo." /></a>
+          </div>
+        </div>
+
+      <a href="javascript:void(0);" class="icon" id="hamburger" onclick="myToggleFunction()">
+          <i class="fa fa-bars"></i></a>
     </div>
 
     <div class="img-container">
